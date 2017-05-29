@@ -14,7 +14,11 @@ attribution license.
 
 The dataset currently covers most of the deforming continental regions on 
 earth, with exceptions of northeast Asia, the Malay Archipelago, Madagascar, 
-Canada, and a few other regions.
+Canada, and a few other regions. These are to be added progressively through 
+2017.
+
+The data is viewable in an interactive map [here][gaf-viewer].
+
 
 [gem]: globalquakemodel.org
 [gaf-viewer]: https://blogs.openquake.org/hazard/global-active-fault-viewer/
