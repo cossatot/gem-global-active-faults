@@ -1,61 +1,70 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.18.12" simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.18.13" simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
-    <edittype widgetv2type="TextEdit" name="ogc_fid">
-      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-    </edittype>
     <edittype widgetv2type="TextEdit" name="accuracy">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="ns_average_dip">
+    <edittype widgetv2type="TextEdit" name="activity_confidence">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="ns_is_active">
+    <edittype widgetv2type="TextEdit" name="average_dip">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="ns_name">
+    <edittype widgetv2type="TextEdit" name="average_rake">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="ns_dip_dir">
+    <edittype widgetv2type="TextEdit" name="catalog_name">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="ns_downthrown_side_id">
+    <edittype widgetv2type="TextEdit" name="dip_dir">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="ns_last_movement">
+    <edittype widgetv2type="TextEdit" name="downthrown_side_dir">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="ns_net_slip_rate">
+    <edittype widgetv2type="TextEdit" name="downthrown_side_id">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="ns_strike_slip_rate">
+    <edittype widgetv2type="TextEdit" name="epistemic_quality">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="ns_vert_slip_rate">
+    <edittype widgetv2type="TextEdit" name="exposure_quality">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="fs_name">
+    <edittype widgetv2type="TextEdit" name="fz_name">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="slip_type">
+    <edittype widgetv2type="TextEdit" name="is_active">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="ns_average_rake">
+    <edittype widgetv2type="TextEdit" name="last_movement">
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+    </edittype>
+    <edittype widgetv2type="TextEdit" name="name">
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+    </edittype>
+    <edittype widgetv2type="TextEdit" name="net_slip_rate">
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+    </edittype>
+    <edittype widgetv2type="TextEdit" name="notes">
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+    </edittype>
+    <edittype widgetv2type="TextEdit" name="ogc_fid">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="reference">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="ns_exposure_quality">
+    <edittype widgetv2type="TextEdit" name="shortening_rate">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="ns_epistemic_quality">
+    <edittype widgetv2type="TextEdit" name="slip_type">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="ns_shortening_rate">
+    <edittype widgetv2type="TextEdit" name="strike_slip_rate">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="notes">
+    <edittype widgetv2type="TextEdit" name="vert_slip_rate">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
   </edittypes>
@@ -74,6 +83,8 @@
       <category render="true" symbol="10" value="Sinistral-Reverse" label=""/>
       <category render="true" symbol="11" value="Reverse-Sinistral" label=""/>
       <category render="true" symbol="12" value="Normal-Dextral" label=""/>
+      <category render="true" symbol="13" value="Anticline" label=""/>
+      <category render="true" symbol="14" value="Subduction Thrust" label=""/>
     </categories>
     <symbols>
       <symbol alpha="1" clip_to_extent="1" type="line" name="0">
@@ -219,6 +230,44 @@
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="use_custom_dash" v="1"/>
+          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="line" name="13">
+        <layer pass="0" class="SimpleLine" locked="0">
+          <prop k="capstyle" v="square"/>
+          <prop k="customdash" v="5;2"/>
+          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="149,149,149,255"/>
+          <prop k="line_style" v="solid"/>
+          <prop k="line_width" v="1.5"/>
+          <prop k="line_width_unit" v="Pixel"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="use_custom_dash" v="0"/>
+          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="line" name="14">
+        <layer pass="0" class="SimpleLine" locked="0">
+          <prop k="capstyle" v="square"/>
+          <prop k="customdash" v="5;2"/>
+          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="0,0,0,255"/>
+          <prop k="line_style" v="solid"/>
+          <prop k="line_width" v="3"/>
+          <prop k="line_width_unit" v="Pixel"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="use_custom_dash" v="0"/>
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
       </symbol>
@@ -498,7 +547,7 @@
     <property key="labeling/fieldName" value="ogc_fid"/>
     <property key="labeling/fitInPolygonOnly" value="false"/>
     <property key="labeling/fontCapitals" value="0"/>
-    <property key="labeling/fontFamily" value="Noto Sans"/>
+    <property key="labeling/fontFamily" value=".SF NS Text"/>
     <property key="labeling/fontItalic" value="true"/>
     <property key="labeling/fontLetterSpacing" value="0"/>
     <property key="labeling/fontLimitPixelSize" value="false"/>
@@ -525,7 +574,7 @@
     <property key="labeling/minFeatureSize" value="0"/>
     <property key="labeling/multilineAlign" value="0"/>
     <property key="labeling/multilineHeight" value="1"/>
-    <property key="labeling/namedStyle" value="Italic"/>
+    <property key="labeling/namedStyle" value=""/>
     <property key="labeling/obstacle" value="true"/>
     <property key="labeling/obstacleFactor" value="1"/>
     <property key="labeling/obstacleType" value="0"/>
@@ -638,8 +687,7 @@
   </labelattributes>
   <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
     <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
-      <fontProperties description="Sans,9,-1,5,50,0,0,0,0,0" style=""/>
-      <attribute field="" color="#000000" label=""/>
+      <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
     </DiagramCategory>
     <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
       <layer pass="0" class="SimpleMarker" locked="0">
@@ -667,25 +715,28 @@
   <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
   <annotationform>.</annotationform>
   <aliases>
-    <alias field="ogc_fid" index="0" name=""/>
-    <alias field="accuracy" index="1" name=""/>
-    <alias field="ns_average_dip" index="2" name=""/>
-    <alias field="ns_is_active" index="3" name=""/>
-    <alias field="ns_name" index="4" name=""/>
-    <alias field="ns_dip_dir" index="5" name=""/>
-    <alias field="ns_downthrown_side_id" index="6" name=""/>
-    <alias field="ns_last_movement" index="7" name=""/>
-    <alias field="ns_net_slip_rate" index="8" name=""/>
-    <alias field="ns_strike_slip_rate" index="9" name=""/>
-    <alias field="ns_vert_slip_rate" index="10" name=""/>
-    <alias field="fs_name" index="11" name=""/>
-    <alias field="slip_type" index="12" name=""/>
-    <alias field="ns_average_rake" index="13" name=""/>
-    <alias field="reference" index="14" name=""/>
-    <alias field="ns_exposure_quality" index="15" name=""/>
-    <alias field="ns_epistemic_quality" index="16" name=""/>
-    <alias field="ns_shortening_rate" index="17" name=""/>
-    <alias field="notes" index="18" name=""/>
+    <alias field="accuracy" index="0" name=""/>
+    <alias field="activity_confidence" index="1" name=""/>
+    <alias field="average_dip" index="2" name=""/>
+    <alias field="average_rake" index="3" name=""/>
+    <alias field="catalog_name" index="4" name=""/>
+    <alias field="dip_dir" index="5" name=""/>
+    <alias field="downthrown_side_dir" index="6" name=""/>
+    <alias field="downthrown_side_id" index="7" name=""/>
+    <alias field="epistemic_quality" index="8" name=""/>
+    <alias field="exposure_quality" index="9" name=""/>
+    <alias field="fz_name" index="10" name=""/>
+    <alias field="is_active" index="11" name=""/>
+    <alias field="last_movement" index="12" name=""/>
+    <alias field="name" index="13" name=""/>
+    <alias field="net_slip_rate" index="14" name=""/>
+    <alias field="notes" index="15" name=""/>
+    <alias field="ogc_fid" index="16" name=""/>
+    <alias field="reference" index="17" name=""/>
+    <alias field="shortening_rate" index="18" name=""/>
+    <alias field="slip_type" index="19" name=""/>
+    <alias field="strike_slip_rate" index="20" name=""/>
+    <alias field="vert_slip_rate" index="21" name=""/>
   </aliases>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
@@ -693,25 +744,28 @@
   <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;ogc_fid&quot;" sortOrder="0">
     <columns>
       <column width="-1" hidden="0" type="field" name="accuracy"/>
-      <column width="-1" hidden="0" type="field" name="ns_average_dip"/>
-      <column width="-1" hidden="0" type="field" name="ns_is_active"/>
-      <column width="231" hidden="0" type="field" name="ns_name"/>
-      <column width="-1" hidden="0" type="field" name="ns_dip_dir"/>
-      <column width="-1" hidden="0" type="field" name="ns_downthrown_side_id"/>
-      <column width="-1" hidden="0" type="field" name="ns_last_movement"/>
-      <column width="-1" hidden="0" type="field" name="ns_net_slip_rate"/>
-      <column width="-1" hidden="0" type="field" name="ns_strike_slip_rate"/>
-      <column width="-1" hidden="0" type="field" name="ns_vert_slip_rate"/>
-      <column width="-1" hidden="0" type="field" name="fs_name"/>
       <column width="-1" hidden="0" type="field" name="slip_type"/>
-      <column width="-1" hidden="0" type="field" name="ns_average_rake"/>
       <column width="-1" hidden="0" type="field" name="reference"/>
-      <column width="-1" hidden="0" type="field" name="ns_exposure_quality"/>
-      <column width="-1" hidden="0" type="field" name="ns_epistemic_quality"/>
-      <column width="-1" hidden="0" type="field" name="ns_shortening_rate"/>
       <column width="-1" hidden="1" type="actions"/>
       <column width="-1" hidden="0" type="field" name="ogc_fid"/>
       <column width="-1" hidden="0" type="field" name="notes"/>
+      <column width="-1" hidden="0" type="field" name="activity_confidence"/>
+      <column width="-1" hidden="0" type="field" name="average_dip"/>
+      <column width="-1" hidden="0" type="field" name="average_rake"/>
+      <column width="-1" hidden="0" type="field" name="catalog_name"/>
+      <column width="-1" hidden="0" type="field" name="dip_dir"/>
+      <column width="-1" hidden="0" type="field" name="downthrown_side_dir"/>
+      <column width="-1" hidden="0" type="field" name="downthrown_side_id"/>
+      <column width="-1" hidden="0" type="field" name="epistemic_quality"/>
+      <column width="-1" hidden="0" type="field" name="exposure_quality"/>
+      <column width="-1" hidden="0" type="field" name="fz_name"/>
+      <column width="-1" hidden="0" type="field" name="is_active"/>
+      <column width="-1" hidden="0" type="field" name="last_movement"/>
+      <column width="-1" hidden="0" type="field" name="name"/>
+      <column width="-1" hidden="0" type="field" name="net_slip_rate"/>
+      <column width="-1" hidden="0" type="field" name="shortening_rate"/>
+      <column width="-1" hidden="0" type="field" name="strike_slip_rate"/>
+      <column width="-1" hidden="0" type="field" name="vert_slip_rate"/>
     </columns>
   </attributetableconfig>
   <editform>.</editform>
@@ -743,25 +797,28 @@ def my_form_open(dialog, layer, feature):
     <fieldstyles/>
   </conditionalstyles>
   <defaults>
-    <default field="ogc_fid" expression=""/>
     <default field="accuracy" expression=""/>
-    <default field="ns_average_dip" expression=""/>
-    <default field="ns_is_active" expression=""/>
-    <default field="ns_name" expression=""/>
-    <default field="ns_dip_dir" expression=""/>
-    <default field="ns_downthrown_side_id" expression=""/>
-    <default field="ns_last_movement" expression=""/>
-    <default field="ns_net_slip_rate" expression=""/>
-    <default field="ns_strike_slip_rate" expression=""/>
-    <default field="ns_vert_slip_rate" expression=""/>
-    <default field="fs_name" expression=""/>
-    <default field="slip_type" expression=""/>
-    <default field="ns_average_rake" expression=""/>
-    <default field="reference" expression=""/>
-    <default field="ns_exposure_quality" expression=""/>
-    <default field="ns_epistemic_quality" expression=""/>
-    <default field="ns_shortening_rate" expression=""/>
+    <default field="activity_confidence" expression=""/>
+    <default field="average_dip" expression=""/>
+    <default field="average_rake" expression=""/>
+    <default field="catalog_name" expression=""/>
+    <default field="dip_dir" expression=""/>
+    <default field="downthrown_side_dir" expression=""/>
+    <default field="downthrown_side_id" expression=""/>
+    <default field="epistemic_quality" expression=""/>
+    <default field="exposure_quality" expression=""/>
+    <default field="fz_name" expression=""/>
+    <default field="is_active" expression=""/>
+    <default field="last_movement" expression=""/>
+    <default field="name" expression=""/>
+    <default field="net_slip_rate" expression=""/>
     <default field="notes" expression=""/>
+    <default field="ogc_fid" expression=""/>
+    <default field="reference" expression=""/>
+    <default field="shortening_rate" expression=""/>
+    <default field="slip_type" expression=""/>
+    <default field="strike_slip_rate" expression=""/>
+    <default field="vert_slip_rate" expression=""/>
   </defaults>
   <previewExpression>COALESCE( "ns_name", '&lt;NULL>' )</previewExpression>
   <layerGeometryType>1</layerGeometryType>
