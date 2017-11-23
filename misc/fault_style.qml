@@ -1,6 +1,9 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.18.13" simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.18.14" simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
+    <edittype widgetv2type="TextEdit" name="WKT_GEOMETRY">
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+    </edittype>
     <edittype widgetv2type="TextEdit" name="accuracy">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
@@ -11,6 +14,9 @@
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="average_rake">
+      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+    </edittype>
+    <edittype widgetv2type="TextEdit" name="catalog_id">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
     <edittype widgetv2type="TextEdit" name="catalog_name">
@@ -49,9 +55,6 @@
     <edittype widgetv2type="TextEdit" name="notes">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="ogc_fid">
-      <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
-    </edittype>
     <edittype widgetv2type="TextEdit" name="reference">
       <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
     </edittype>
@@ -85,6 +88,10 @@
       <category render="true" symbol="12" value="Normal-Dextral" label=""/>
       <category render="true" symbol="13" value="Anticline" label=""/>
       <category render="true" symbol="14" value="Subduction Thrust" label=""/>
+      <category render="true" symbol="15" value="Dextral-Reverse" label=""/>
+      <category render="true" symbol="16" value="Reverse-Dextral" label=""/>
+      <category render="true" symbol="17" value="Syncline" label=""/>
+      <category render="true" symbol="18" value="Strike-Slip" label=""/>
     </categories>
     <symbols>
       <symbol alpha="1" clip_to_extent="1" type="line" name="0">
@@ -271,6 +278,116 @@
           <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
         </layer>
       </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="line" name="15">
+        <layer pass="0" class="SimpleLine" locked="0">
+          <prop k="capstyle" v="square"/>
+          <prop k="customdash" v="5;2"/>
+          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="0,0,255,255"/>
+          <prop k="line_style" v="solid"/>
+          <prop k="line_width" v="2.5"/>
+          <prop k="line_width_unit" v="Pixel"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="use_custom_dash" v="0"/>
+          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+        </layer>
+        <layer pass="0" class="SimpleLine" locked="0">
+          <prop k="capstyle" v="square"/>
+          <prop k="customdash" v="4;6"/>
+          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="Pixel"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="0,0,0,255"/>
+          <prop k="line_style" v="dash"/>
+          <prop k="line_width" v="2.5"/>
+          <prop k="line_width_unit" v="Pixel"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="use_custom_dash" v="1"/>
+          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="line" name="16">
+        <layer pass="0" class="SimpleLine" locked="0">
+          <prop k="capstyle" v="square"/>
+          <prop k="customdash" v="5;2"/>
+          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="0,0,255,255"/>
+          <prop k="line_style" v="solid"/>
+          <prop k="line_width" v="2.5"/>
+          <prop k="line_width_unit" v="Pixel"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="use_custom_dash" v="0"/>
+          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+        </layer>
+        <layer pass="0" class="SimpleLine" locked="0">
+          <prop k="capstyle" v="square"/>
+          <prop k="customdash" v="6;6"/>
+          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="Pixel"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="0,0,0,255"/>
+          <prop k="line_style" v="dash"/>
+          <prop k="line_width" v="2.5"/>
+          <prop k="line_width_unit" v="Pixel"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="use_custom_dash" v="1"/>
+          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="line" name="17">
+        <layer pass="0" class="SimpleLine" locked="0">
+          <prop k="capstyle" v="square"/>
+          <prop k="customdash" v="5;2"/>
+          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="133,133,133,255"/>
+          <prop k="line_style" v="solid"/>
+          <prop k="line_width" v="1.5"/>
+          <prop k="line_width_unit" v="Pixel"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="use_custom_dash" v="0"/>
+          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="line" name="18">
+        <layer pass="0" class="SimpleLine" locked="0">
+          <prop k="capstyle" v="square"/>
+          <prop k="customdash" v="5;2"/>
+          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="Pixel"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="217,217,0,255"/>
+          <prop k="line_style" v="solid"/>
+          <prop k="line_width" v="2.5"/>
+          <prop k="line_width_unit" v="Pixel"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="Pixel"/>
+          <prop k="use_custom_dash" v="0"/>
+          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+        </layer>
+      </symbol>
       <symbol alpha="1" clip_to_extent="1" type="line" name="2">
         <layer pass="0" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
@@ -291,7 +408,7 @@
         </layer>
         <layer pass="0" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
-          <prop k="customdash" v="4;4"/>
+          <prop k="customdash" v="4;6"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="customdash_unit" v="Pixel"/>
           <prop k="draw_inside_polygon" v="0"/>
@@ -346,7 +463,7 @@
         </layer>
         <layer pass="0" class="SimpleLine" locked="0">
           <prop k="capstyle" v="square"/>
-          <prop k="customdash" v="4;4"/>
+          <prop k="customdash" v="6;6"/>
           <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="customdash_unit" v="Pixel"/>
           <prop k="draw_inside_polygon" v="0"/>
@@ -547,7 +664,7 @@
     <property key="labeling/fieldName" value="ogc_fid"/>
     <property key="labeling/fitInPolygonOnly" value="false"/>
     <property key="labeling/fontCapitals" value="0"/>
-    <property key="labeling/fontFamily" value=".SF NS Text"/>
+    <property key="labeling/fontFamily" value="Noto Sans"/>
     <property key="labeling/fontItalic" value="true"/>
     <property key="labeling/fontLetterSpacing" value="0"/>
     <property key="labeling/fontLimitPixelSize" value="false"/>
@@ -561,7 +678,7 @@
     <property key="labeling/fontWeight" value="50"/>
     <property key="labeling/fontWordSpacing" value="0"/>
     <property key="labeling/formatNumbers" value="false"/>
-    <property key="labeling/isExpression" value="false"/>
+    <property key="labeling/isExpression" value="true"/>
     <property key="labeling/labelOffsetInMapUnits" value="true"/>
     <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
     <property key="labeling/labelPerPart" value="false"/>
@@ -574,7 +691,7 @@
     <property key="labeling/minFeatureSize" value="0"/>
     <property key="labeling/multilineAlign" value="0"/>
     <property key="labeling/multilineHeight" value="1"/>
-    <property key="labeling/namedStyle" value=""/>
+    <property key="labeling/namedStyle" value="Italic"/>
     <property key="labeling/obstacle" value="true"/>
     <property key="labeling/obstacleFactor" value="1"/>
     <property key="labeling/obstacleType" value="0"/>
@@ -687,7 +804,8 @@
   </labelattributes>
   <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
     <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
-      <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+      <fontProperties description="Noto Sans,9,-1,5,50,0,0,0,0,0" style=""/>
+      <attribute field="" color="#000000" label=""/>
     </DiagramCategory>
     <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
       <layer pass="0" class="SimpleMarker" locked="0">
@@ -715,28 +833,29 @@
   <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
   <annotationform>.</annotationform>
   <aliases>
-    <alias field="accuracy" index="0" name=""/>
-    <alias field="activity_confidence" index="1" name=""/>
-    <alias field="average_dip" index="2" name=""/>
-    <alias field="average_rake" index="3" name=""/>
-    <alias field="catalog_name" index="4" name=""/>
-    <alias field="dip_dir" index="5" name=""/>
-    <alias field="downthrown_side_dir" index="6" name=""/>
-    <alias field="downthrown_side_id" index="7" name=""/>
-    <alias field="epistemic_quality" index="8" name=""/>
-    <alias field="exposure_quality" index="9" name=""/>
-    <alias field="fz_name" index="10" name=""/>
-    <alias field="is_active" index="11" name=""/>
-    <alias field="last_movement" index="12" name=""/>
-    <alias field="name" index="13" name=""/>
-    <alias field="net_slip_rate" index="14" name=""/>
-    <alias field="notes" index="15" name=""/>
-    <alias field="ogc_fid" index="16" name=""/>
-    <alias field="reference" index="17" name=""/>
-    <alias field="shortening_rate" index="18" name=""/>
-    <alias field="slip_type" index="19" name=""/>
-    <alias field="strike_slip_rate" index="20" name=""/>
-    <alias field="vert_slip_rate" index="21" name=""/>
+    <alias field="WKT_GEOMETRY" index="0" name=""/>
+    <alias field="accuracy" index="1" name=""/>
+    <alias field="activity_confidence" index="2" name=""/>
+    <alias field="average_dip" index="3" name=""/>
+    <alias field="average_rake" index="4" name=""/>
+    <alias field="catalog_id" index="5" name=""/>
+    <alias field="catalog_name" index="6" name=""/>
+    <alias field="dip_dir" index="7" name=""/>
+    <alias field="downthrown_side_dir" index="8" name=""/>
+    <alias field="downthrown_side_id" index="9" name=""/>
+    <alias field="epistemic_quality" index="10" name=""/>
+    <alias field="exposure_quality" index="11" name=""/>
+    <alias field="fz_name" index="12" name=""/>
+    <alias field="is_active" index="13" name=""/>
+    <alias field="last_movement" index="14" name=""/>
+    <alias field="name" index="15" name=""/>
+    <alias field="net_slip_rate" index="16" name=""/>
+    <alias field="notes" index="17" name=""/>
+    <alias field="reference" index="18" name=""/>
+    <alias field="shortening_rate" index="19" name=""/>
+    <alias field="slip_type" index="20" name=""/>
+    <alias field="strike_slip_rate" index="21" name=""/>
+    <alias field="vert_slip_rate" index="22" name=""/>
   </aliases>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
@@ -747,7 +866,6 @@
       <column width="-1" hidden="0" type="field" name="slip_type"/>
       <column width="-1" hidden="0" type="field" name="reference"/>
       <column width="-1" hidden="1" type="actions"/>
-      <column width="-1" hidden="0" type="field" name="ogc_fid"/>
       <column width="-1" hidden="0" type="field" name="notes"/>
       <column width="-1" hidden="0" type="field" name="activity_confidence"/>
       <column width="-1" hidden="0" type="field" name="average_dip"/>
@@ -766,6 +884,8 @@
       <column width="-1" hidden="0" type="field" name="shortening_rate"/>
       <column width="-1" hidden="0" type="field" name="strike_slip_rate"/>
       <column width="-1" hidden="0" type="field" name="vert_slip_rate"/>
+      <column width="-1" hidden="0" type="field" name="WKT_GEOMETRY"/>
+      <column width="-1" hidden="0" type="field" name="catalog_id"/>
     </columns>
   </attributetableconfig>
   <editform>.</editform>
@@ -797,10 +917,12 @@ def my_form_open(dialog, layer, feature):
     <fieldstyles/>
   </conditionalstyles>
   <defaults>
+    <default field="WKT_GEOMETRY" expression=""/>
     <default field="accuracy" expression=""/>
     <default field="activity_confidence" expression=""/>
     <default field="average_dip" expression=""/>
     <default field="average_rake" expression=""/>
+    <default field="catalog_id" expression=""/>
     <default field="catalog_name" expression=""/>
     <default field="dip_dir" expression=""/>
     <default field="downthrown_side_dir" expression=""/>
@@ -813,7 +935,6 @@ def my_form_open(dialog, layer, feature):
     <default field="name" expression=""/>
     <default field="net_slip_rate" expression=""/>
     <default field="notes" expression=""/>
-    <default field="ogc_fid" expression=""/>
     <default field="reference" expression=""/>
     <default field="shortening_rate" expression=""/>
     <default field="slip_type" expression=""/>
