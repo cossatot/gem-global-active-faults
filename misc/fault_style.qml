@@ -92,6 +92,7 @@
       <category render="true" symbol="16" value="Reverse-Dextral" label=""/>
       <category render="true" symbol="17" value="Syncline" label=""/>
       <category render="true" symbol="18" value="Strike-Slip" label=""/>
+      <category render="true" symbol="19" value="Spreading Ridge" label=""/>
     </categories>
     <symbols>
       <symbol alpha="1" clip_to_extent="1" type="line" name="0">
@@ -382,6 +383,42 @@
           <prop k="line_width" v="2.5"/>
           <prop k="line_width_unit" v="Pixel"/>
           <prop k="offset" v="0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="Pixel"/>
+          <prop k="use_custom_dash" v="0"/>
+          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="line" name="19">
+        <layer pass="0" class="SimpleLine" locked="0">
+          <prop k="capstyle" v="square"/>
+          <prop k="customdash" v="5;2"/>
+          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="255,0,0,255"/>
+          <prop k="line_style" v="solid"/>
+          <prop k="line_width" v="1"/>
+          <prop k="line_width_unit" v="Pixel"/>
+          <prop k="offset" v="1"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="Pixel"/>
+          <prop k="use_custom_dash" v="0"/>
+          <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+        </layer>
+        <layer pass="0" class="SimpleLine" locked="0">
+          <prop k="capstyle" v="square"/>
+          <prop k="customdash" v="5;2"/>
+          <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="line_color" v="255,0,0,255"/>
+          <prop k="line_style" v="solid"/>
+          <prop k="line_width" v="1"/>
+          <prop k="line_width_unit" v="Pixel"/>
+          <prop k="offset" v="-1"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="Pixel"/>
           <prop k="use_custom_dash" v="0"/>
