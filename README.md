@@ -75,6 +75,33 @@ a 1/40,000 (or 1:40,000) scale will have an accuracy of `40000`.
 
 `String`s for fields with words.
 
+
+
+# File Formats
+
+The database is currently available in 3 formats, [GeoJSON], [GeoPackage], and 
+[ESRI ShapeFile]. Which file format is most appropriate depends on the software 
+package that is being used. QGIS users and anyone making webmaps or an API will 
+find the GeoJSON format most useful. This is also the version of record as it 
+is tracked best with version control. However, ESRI does not seem to provide 
+acceptable GeoJSON support; ArcGIS users should be able to use the GeoPackage 
+format (note that we have no access to ArcGIS and are unable to test these 
+files for compatibility). ESRI's legacy ShapeFile format is also provided but 
+this is not a good choice as that format truncates both column names and longer 
+text fields such as `Notes`.
+
+
+Additional file formats will be provided once the Version 1 of the database is 
+complete; if you have specific needs, please contact richard dot styron at 
+globalquakemodel.org.
+
+
+
+
 [gem]: globalquakemodel.org
 [gaf-viewer]: https://blogs.openquake.org/hazard/global-active-fault-viewer/
 [tuple]: https://en.wikipedia.org/wiki/Tuple
+[GeoJSON]: http://geojson.org/
+[GeoPackage]: https://www.geopackage.org/
+[ESRI ShapeFile]: https://support.esri.com/en/white-paper/279
+
