@@ -1,5 +1,8 @@
 # GEM Global Active Faults
 
+[![DOI](https://zenodo.org/badge/91775241.svg)](https://zenodo.org/badge/latestdoi/91775241)
+
+
 *Please note this is a work in progress; version 1 should be complete by the 
 end of 2018.*
 
