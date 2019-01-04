@@ -11,18 +11,21 @@ modify to contribute.
 
 Instead, contribution can take several forms:
 1. *The addition to the 'miscellaneous' dataset*
-   This [dataset] is intended to capture individual faults that are not present
+
+   This [dataset][misc] is intended to capture individual faults that are not present
    in the regional dataset for an area, though the dataset has worldwide scope.
    If you have studied a fault that isn't present, or you have new data on a
    fault that is already present, this is likely the best option. 
 
 2. *The modification of a regional dataset*
+
    This option is best if you have data for faults in an area
    that is covered by one of the fault catalogs maintained by GEM or that is
    otherwise open for modification (e.g., HimaTibetMap or the Active Tectonics
    of the Andes catalogs).
 
 3. *The addition of a new regional dataset*
+
     If you have a dataset that covers some region with higher fidelity or more
     data than the existing coverage of that region, it's easy to incorporate
     this data into the GAF-DB compilation. 
@@ -38,7 +41,7 @@ a pull request to the repository.
 If you're not familiar with git and GitHub, you can just email [Richard
 Styron](mailto:richard.styron@globalquakemodel.org) with the dataset. Ideally
 you would be able to send it as a `.geojson` file and use the format of the
-GAF-DB (described below, and availale [here][blank] as a geopackage template,
+GAF-DB (described below, and available [here][blank] as a geopackage template,
 or you can use the GAF-DB or the [miscellaneous][misc] file as a template)
 but we can work with just about anything.
 
