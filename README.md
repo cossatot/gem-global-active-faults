@@ -98,7 +98,12 @@ Additional file formats will be provided once the Version 1 of the database is
 complete; if you have specific needs, please contact richard dot styron at 
 globalquakemodel.org.
 
+# Contributing
 
+Contributions to the GEM GAF-DB are highly encouraged. Please see the page on
+[contributing] for more details.
+
+[contribuing]: ./contributing.md
 
 
 [gem]: globalquakemodel.org
