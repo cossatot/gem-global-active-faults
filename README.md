@@ -3,9 +3,6 @@
 [![DOI](https://zenodo.org/badge/91775241.svg)](https://zenodo.org/badge/latestdoi/91775241)
 
 
-*Please note this is a work in progress; version 1 should be complete by the 
-end of 2018.*
-
 The [GEM Foundation's][gem] Global Active Faults project (GEM-GAF) is building 
 a comprehensive, global dataset of active fault traces of seismogenic concern. 
 The dataset comprises GIS files hosted here of fault traces and small amount of 
@@ -82,16 +79,21 @@ a 1/40,000 (or 1:40,000) scale will have an accuracy of `40000`.
 
 # File Formats
 
-The database is currently available in 3 formats, [GeoJSON], [GeoPackage], and 
-[ESRI ShapeFile]. Which file format is most appropriate depends on the software 
-package that is being used. QGIS users and anyone making webmaps or an API will 
-find the GeoJSON format most useful. This is also the version of record as it 
-is tracked best with version control. However, ESRI does not seem to provide 
-acceptable GeoJSON support; ArcGIS users should be able to use the GeoPackage 
-format (note that we have no access to ArcGIS and are unable to test these 
-files for compatibility). ESRI's legacy ShapeFile format is also provided but 
-this is not a good choice as that format truncates both column names and longer 
-text fields such as `Notes`.
+The database is currently available in 4 formats, [GeoJSON], [GeoPackage], KML, 
+and [ESRI ShapeFile]. Which file format is most appropriate depends on the 
+software package that is being used. QGIS users and anyone making webmaps or an 
+API will find the GeoJSON format most useful. This is also the version of 
+record as it is tracked best with version control. However, ESRI does not seem 
+to provide acceptable GeoJSON support; ArcGIS users should be able to use the 
+GeoPackage format (note that we have no access to ArcGIS and are unable to test 
+these files for compatibility). ESRI's legacy ShapeFile format is also provided 
+but this is not a good choice as that format truncates both column names and 
+longer text fields such as `Notes`.
+
+**If you are downloading individual files instead of cloning the repository:** 
+Please note that GitHub may display a version of the data that is formatted for 
+viewing within its built-in webmap, and not display the actual data. If you 
+press the 'Download' button, however, you may download the real file.
 
 
 Additional file formats will be provided once the Version 1 of the database is 
