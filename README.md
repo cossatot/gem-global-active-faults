@@ -13,7 +13,7 @@ Hazard Modeling efforts, although we hope that the data find wide use in
 research, education and general interest among many users.
 
 The dataset is freely and publicly available here, under a Creative Commons 
-attribution license.
+attribution sharealike license.
 
 The dataset currently covers most of the deforming continental regions on earth 
 with the exceptions of, the Malay Archipelago, Madagascar, Canada, and a few 
