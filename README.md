@@ -100,7 +100,7 @@ datasets. These are given here:
   North Africa                  |Styron and Poggi, 2018    |Yes        |*none*
   Central America and Caribbean |Styron et al., 2020       |Yes        |CCAF
   Global (various regions)      |Christophersen et al. 2015|Yes        |Faulted Earth
-  Global (plate boundaries)     |Bird, 3002                |Yes        |*none*
+  Global (plate boundaries)     |Bird, 3002                |Yes        |PB2002
 
 Full reference information is given below.  Please note that these are subject 
 to regular change.
