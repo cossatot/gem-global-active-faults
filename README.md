@@ -80,28 +80,27 @@ a 1/40,000 (or 1:40,000) scale will have an accuracy of `40000`.
 The GEM GAF-DB is compiled from a variety of regional to global active fault 
 datasets. These are given here:
 
-  Coverage Region                 Reference                   Peer-Review Dataset Name (if any)
-  ------------------------------- --------------------------- ----------- -------------------------------
-  New Zealand                     Litchfield et al., 2014     Yes         *none*
-  Australia                       Allen et al., 2018          Yes         *none*
-  East Africa                     Macgregor, 2014             Yes         *none*
-  Middle East                     Danciu et al., 2018         Yes         EMME
-  South America                   Alvarado et al., 2017       No          SARA
-  Europe                          Woessner et al., 2015       Yes         SHARE
-  Northern Andes                  Veloza et al., 2012         Yes         Active Tectonics of the Andes
-  Indo-Asian Collision Zone       Styron et al., 2010         Yes         HimaTibetMap
-  Philippines                     Penarubia et al., 2019      Yes         *none*
-  US mainland                     Petersen et al., 2014       Yes         HazFaults
-  California                      Dawson and Weldon, 2013     Yes         UCERF3
-  Taiwan                          Shyu et al., 2016           Yes         *none*
-  Mexico                          Villegas et al., 2017       Yes         *none*
-  Southeast Asia                  Chan et al., 2017           No          *none*
-  Northeast Asia                  Styron et al., 2018         No          *none*
-  North Africa                    Styron and Poggi, 2018      Yes         *none*
-  Central America and Caribbean   Styron et al., 2020         Yes         CCAF
-  Global (various regions)        Christophersen et al. 2015  Yes         Faulted Earth
-  Global (plate boundaries)       Bird, 3002                  Yes         
-  *none*
+  Coverage Region               |Reference                 |Peer-Review|Dataset Name (if any)
+  ------------------------------|--------------------------|-----------|-----------------------------
+  New Zealand                   |Litchfield et al., 2014   |Yes        |*none*
+  Australia                     |Allen et al., 2018        |Yes        |*none*
+  East Africa                   |Macgregor, 2014           |Yes        |*none*
+  Middle East                   |Danciu et al., 2018       |Yes        |EMME
+  South America                 |Alvarado et al., 2017     |No         |SARA
+  Europe                        |Woessner et al., 2015     |Yes        |SHARE
+  Northern Andes                |Veloza et al., 2012       |Yes        |Active Tectonics of the Andes
+  Indo-Asian Collision Zone     |Styron et al., 2010       |Yes        |HimaTibetMap
+  Philippines                   |Penarubia et al., 2019    |Yes        |*none*
+  US mainland                   |Petersen et al., 2014     |Yes        |HazFaults
+  California                    |Dawson and Weldon, 2013   |Yes        |UCERF3
+  Taiwan                        |Shyu et al., 2016         |Yes        |*none*
+  Mexico                        |Villegas et al., 2017     |Yes        |*none*
+  Southeast Asia                |Chan et al., 2017         |No         |*none*
+  Northeast Asia                |Styron et al., 2018       |No         |*none*
+  North Africa                  |Styron and Poggi, 2018    |Yes        |*none*
+  Central America and Caribbean |Styron et al., 2020       |Yes        |CCAF
+  Global (various regions)      |Christophersen et al. 2015|Yes        |Faulted Earth
+  Global (plate boundaries)     |Bird, 3002                |Yes        |*none*
 
 Full reference information is given below.  Please note that these are subject 
 to regular change.
