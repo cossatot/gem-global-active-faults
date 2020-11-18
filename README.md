@@ -1,25 +1,37 @@
-# GEM Global Active Faults
+# GEM Global Active Faults Database (GEM GAF-DB)
 
 [![DOI](https://zenodo.org/badge/91775241.svg)](https://zenodo.org/badge/latestdoi/91775241)
 
 
-The [GEM Foundation's][gem] Global Active Faults project (GEM-GAF) is building 
-a comprehensive, global dataset of active fault traces of seismogenic concern. 
-The dataset comprises GIS files hosted here of fault traces and small amount of 
-relevant attributes or metadata (fault geometry, kinematics, slip rate, etc.) 
-useful for seismic hazard modeling and other tectonic applications. The dataset 
-is being assembled primarily as a part of GEM's global Probabilistic Seismic 
-Hazard Modeling efforts, although we hope that the data find wide use in 
-research, education and general interest among many users.
+The [GEM Foundation's][gem] Global Active Faults is building a comprehensive, 
+global dataset of active fault traces of seismogenic concern. The GEM GAF-DB 
+comprises GIS files hosted here of fault traces and small amount of relevant 
+attributes or metadata (fault geometry, kinematics, slip rate, etc.) useful for 
+seismic hazard modeling and other tectonic applications. The dataset is being 
+assembled primarily as a part of GEM's global Probabilistic Seismic Hazard 
+Modeling efforts, although we hope that the data find wide use in research, 
+education and general interest among many users.
 
 The dataset is freely and publicly available here, under a Creative Commons 
 attribution sharealike license.
 
 The dataset currently covers most of the deforming continental regions on earth 
-with the exceptions of, the Malay Archipelago, Madagascar, Canada, and a few 
-other regions. These are to be added progressively through 2018.
+with the exceptions of the Malay Archipelago, Madagascar, Canada, and a few 
+other regions.
 
 The data is viewable in an interactive map [here][gaf-viewer].
+
+## Citation
+
+The GEM GAF-DB has been published in *Earthquake Spectra*.  The citation
+is:
+
+Styron, Richard, and Marco Pagani. “The GEM Global Active Faults Database.” 
+*Earthquake Spectra*, vol. 36, no. 1_suppl, Oct. 2020, pp. 160–180, 
+doi:10.1177/8755293020944182.
+
+The link to the publication is here: 
+<https://journals.sagepub.com/doi/abs/10.1177/8755293020944182>
 
 ## Data Format
 
