@@ -98,6 +98,7 @@ datasets. These are given here:
   Southeast Asia                |Chan et al., 2017         |No         |*none*
   Northeast Asia                |Styron et al., 2018       |No         |*none*
   North Africa                  |Styron and Poggi, 2018    |Yes        |*none*
+  Southern Malawi               |Williams et al., 2021     |Yes        |SMSSD
   Central America and Caribbean |Styron et al., 2020       |Yes        |CCAF
   Global (various regions)      |Christophersen et al. 2015|Yes        |Faulted Earth
   Global (plate boundaries)     |Bird, 3002                |Yes        |PB2002
@@ -231,6 +232,12 @@ faults for northwest South America. GSA Today 22(10): 4–10.
 DOI:10.1130/GSAT-G156A.1. URL 
 http://www.geosociety.org/gsatoday/archive/22/10/abstract/
 i1052-5173-22-10-4.htm.
+
+Williams, J. N., Mdala, H., Fagereng, Å., Wedmore, L. N. J., Biggs, J., 
+Dulanya, Z., Chindandali, P., and Mphepo, F.: A systems-based approach to 
+parameterise seismic hazard in regions with little historical or instrumental 
+seismicity: active fault and seismogenic source databases for southern Malawi, 
+Solid Earth, 12, 187–217, https://doi.org/10.5194/se-12-187-2021, 2021.
 
 Woessner J, Laurentiu D, Giardini D, Crowley H, Cotton F, Grünthal G, Valensise 
 G, Arvidsson R, Basili R, Demircioglu MB, Hiemer S, Meletti C, Musson RW, 
